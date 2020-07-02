@@ -10,9 +10,9 @@ import { ChartType } from 'chart.js';
 })
 export class GraficoDonaComponent implements OnInit {
 
-  @Input() doughnutChartData: number[]  = [29, 34, 90];
-  @Input() doughnutChartLabels: string[] = ['Talleres', 'Naranjas', 'Trasnsporte'];
-  @Input() doughnutChartType: string = 'doughnut';
+  @Input() doughnutChartData: MultiDataSet  = [[29, 34, 90]];
+  @Input() doughnutChartLabels: Label = ['Talleres', 'Naranjas', 'Trasnsporte'];
+  @Input() doughnutChartType: ChartType = 'doughnut';
 
 
   constructor() { }

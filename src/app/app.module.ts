@@ -9,11 +9,16 @@ import { PageModule } from './pages/pages.module';
 
 import { FormsModule } from '@angular/forms';
 
+// services
+import { ServiceModule } from './services/service.module';
+
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
 /* import { GraficoDonaComponent } from './components/grafico-dona/grafico-dona.component'; */
 /* import { IncrementadorComponent } from './components/incrementador/incrementador.component'; */
+
+
 
 
 
@@ -28,9 +33,12 @@ import { RegisterComponent } from './login/register.component';
     BrowserModule,
     APP_ROUTES,
     PageModule,
-    FormsModule
+    FormsModule,
+    ServiceModule
   ],
-  providers: [],
+  providers: [
+  
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
