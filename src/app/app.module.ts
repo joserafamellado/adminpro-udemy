@@ -17,6 +17,8 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
 /* import { GraficoDonaComponent } from './components/grafico-dona/grafico-dona.component'; */
 /* import { IncrementadorComponent } from './components/incrementador/incrementador.component'; */
+/* import { PromesasComponent } from './pages/promesas/promesas.component'; */
+
 
 
 
